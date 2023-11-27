@@ -1,11 +1,16 @@
 import './App.css'
+import WeatherForm from './components/UI/WeatherForm'
 
 function App() {
-
   return (
-    <>
-      <header className='app-header'>Free Weather Forecast</header>
-    </>
+    <div className='app'>
+      <header className='app-header'>
+        <h1>Weather Forecast App</h1>
+      </header>
+      <main className='app-main'>
+        <WeatherForm />
+      </main>
+    </div>
   )
 }
 

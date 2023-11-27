@@ -8,8 +8,26 @@
 
 .app-header {
   color: white;
-  font-size: 50px;
-  font-weight: 700;
   width: 100%;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+.app-header h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.app-main {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  .app-main {
+    width: 100%;
+  }
 }
