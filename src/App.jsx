@@ -1,5 +1,6 @@
 import './App.css'
 import WeatherForm from './components/UI/WeatherForm'
+import WheatherDisplay from './components/WheatherDisplay'
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       </header>
       <main className='app-main'>
         <WeatherForm />
+        {/* <h2>Enter city</h2> */}
+        <WheatherDisplay />
       </main>
     </div>
   )

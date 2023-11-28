@@ -1,0 +1,32 @@
+.display {
+   width: 270px;
+   border-radius: 7px;
+   border: 1px solid #fff;
+   padding: 10px;
+}
+
+.city p {
+   font-weight: 700;
+   margin: 10px 0 15px 0;
+   font-size: 30px;
+   letter-spacing: 1.5px;
+}
+
+.display h2 {
+   font-size: 80px;
+   margin: -20px 0px 0px 0px;
+   font-weight: unset;
+}
+
+.description p {
+   margin: 0;
+}
+
+.displayInfo {
+   display: flex;
+   background-color: #b3b3b371;
+   justify-content: space-evenly;
+   margin-top: 30px;
+   border-radius: 7px;
+   padding: 10px;
+}

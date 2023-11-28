@@ -10,7 +10,6 @@
   color: white;
   width: 100%;
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .app-header h1 {
@@ -20,7 +19,9 @@
 
 .app-main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 80%;
   margin: 0 auto;
   color: #fff;
