@@ -8,13 +8,13 @@
 .input {
    font-size: 20px;
    padding: 5px;
-   border-radius: 7px;
+   border-radius: 10px;
    border: none;
    outline: none;
 }
 
 .button {
-   border-radius: 7px;
+   border-radius: 10px;
    border: none;
    padding: 5px 10px 5px 10px;
    cursor: pointer;

@@ -14,16 +14,16 @@ const WheatherDisplay = () => {
          </div>
          <div className={cl.displayInfo}>
             <div>
-               <p>Feels Like</p>
-               <p>0</p>
+               <p className={cl.bold}>Feels Like</p>
+               <p className={cl.number}>0</p>
             </div>
             <div>
-               <p>Humidity</p>
-               <p>70%</p>
+               <p className={cl.bold}>Humidity</p>
+               <p className={cl.number}>70%</p>
             </div>
             <div>
-               <p>Wind</p>
-               <p>3 m/s</p>
+               <p className={cl.bold}>Wind </p>
+               <p className={cl.number}>3 m/s</p>
             </div>
          </div>
       </div>

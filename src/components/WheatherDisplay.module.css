@@ -1,6 +1,6 @@
 .display {
    width: 270px;
-   border-radius: 7px;
+   border-radius: 10px;
    border: 1px solid #fff;
    padding: 10px;
 }
@@ -24,9 +24,25 @@
 
 .displayInfo {
    display: flex;
-   background-color: #b3b3b371;
+   background-color: #b3b3b34b;
    justify-content: space-evenly;
-   margin-top: 30px;
+   margin-top: 80px;
    border-radius: 7px;
    padding: 10px;
+}
+
+.displayInfo div {
+   width: 30%;
+   margin: 0;
+   font-size: 15px;
+}
+
+.bold {
+   font-weight: 700;
+   margin: 0;
+}
+
+.number {
+   margin: 5px 0 5px 0;
+   font-size: 20px;
 }
