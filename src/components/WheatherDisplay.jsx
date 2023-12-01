@@ -1,10 +1,10 @@
 import cl from '../components/WheatherDisplay.module.css'
 
-const WheatherDisplay = () => {
+const WheatherDisplay = ({ data }) => {
    return (
       <div className={cl.display}>
          <div className={cl.city}>
-            <p>Moscow</p>
+            <p>{data.name}</p>
          </div>
          <div className={cl.temp}>
             <h2>-1°C</h2>
