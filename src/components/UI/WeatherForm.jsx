@@ -1,13 +1,18 @@
 import { RiSearchLine } from "react-icons/ri";
 import cl from '../UI/WeatherForm.module.css'
-import fetchWeather from "../../data/data";
 
-
-const WeatherForm = () => {
+const WeatherForm = (props) => {
+   const { serach, setSearch, fetchWeather } = props
    return (
       <div className={cl.container}>
          <form action="#" className={cl.form}>
-            <input className={cl.input} type="text" placeholder='Enter city...' />
+            <input
+               className={cl.input}
+               type="text"
+               placeholder='Enter city...'
+               value={serach}
+               onChange={event => setSearch(event.target.value)}
+            />
             <button className={cl.button} onClick={fetchWeather}><RiSearchLine /></button>
          </form>
       </div>
