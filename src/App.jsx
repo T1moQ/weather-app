@@ -12,6 +12,7 @@ function App() {
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${serach}&appid=411b1d5264869194452c85cce4f169ff&units=metric`
 
+
   async function fetchWeather(event) {
     event.preventDefault()
     try {
@@ -22,7 +23,10 @@ function App() {
       setError('')
     } catch (error) {
       if (error.response.status === 404) {
-        setError('There is no such city in the list =(')
+        setError('Sorry... There is no such city in the list =(')
+        setSearch('')
+      } else if (error.response.status === 400) {
+        setError('The city name field cannot be empty')
         setSearch('')
       }
     }
