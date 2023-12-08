@@ -5,7 +5,7 @@ const WeatherForm = (props) => {
    const { serach, setSearch, fetchWeather } = props
    return (
       <div className={cl.container}>
-         <form action="#" className={cl.form}>
+         <form className={cl.form}>
             <input
                className={cl.input}
                type="text"

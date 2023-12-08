@@ -18,7 +18,6 @@ function App() {
     try {
       const response = await axios.get(url)
       setData(response.data)
-      console.log(response.data)
       setSearch('')
       setError('')
     } catch (error) {
