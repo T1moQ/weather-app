@@ -1,8 +1,13 @@
-# React + Vite
+## Hello everyone and welcome to the repository of The Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Modest app to check current wheather in location via API request. This app had created to test how React JS works with async requsts.
 
-Currently, two official plugins are available:
+### *Key technologies*
+* **React JS**
+* **CSS modules**
+* **Vite** 
+* **Axios**
+* **[OpenWeatherMap](https://openweathermap.org/) API**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#
+### [Demo](t1moq.github.io/SkvoshStore/)
