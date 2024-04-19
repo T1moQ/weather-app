@@ -7,6 +7,7 @@ const WeatherForm = (props) => {
       <div className={cl.container}>
          <form className={cl.form}>
             <input
+               data-testid='cypress-weather-form'
                className={cl.input}
                type="text"
                placeholder='Enter city...'

@@ -3,7 +3,7 @@ import st from '../components/WheatherDisplay.module.css'
 const WheatherDisplay = (props) => {
    const { data } = props
    return (
-      <div className={st.display}>
+      <div data-testid="cypress-display" className={st.display}>
          <div className={st.city}>
             <p>{data.name}</p>
          </div>
