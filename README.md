@@ -1,6 +1,6 @@
 ## Hello everyone and welcome to the repository of The Weather App
 
-### Modest app to check current wheather in location via API request. This app had created to test how React JS works with async requsts.
+### Modest app to check current weather in location via API request. This app had created to test how React JS works with async requsts.
 
 ### *Key technologies*
 * **React JS**
@@ -10,4 +10,4 @@
 * **[OpenWeatherMap](https://openweathermap.org/) API**
 
 #
-### [Demo](t1moq.github.io/SkvoshStore/)
+### [Demo](https://t1moq.github.io/weather-app/)
